@@ -1,0 +1,18 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.season-content-checkbox {
+  visibility: hidden;
+  display: none;
+}
+
+.season-version, .season-dates {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+input[type=checkbox]:checked ~ div.season-content {
+  display: none;
+  visibility: hidden;
+}
